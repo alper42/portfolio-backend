@@ -4,7 +4,9 @@ const cors = require('cors');
 const { Resend } = require('resend');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'https://alper42.github.io'
+}));
 app.use(express.json());
 
 const resend = new Resend(process.env.RESEND_API_KEY);
