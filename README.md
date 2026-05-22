@@ -2,8 +2,6 @@
 
 REST API für das [Portfolio-Frontend](https://github.com/alper42/portfolio). Empfängt Kontaktformular-Anfragen und versendet E-Mails via [Resend](https://resend.com).
 
-🚀 **Live:** [portfolio-backend-um5v.onrender.com](https://portfolio-backend-um5v.onrender.com)
-
 ---
 
 ## Tech Stack
@@ -45,34 +43,6 @@ Versendet eine E-Mail aus dem Kontaktformular.
 
 ---
 
-## Lokale Entwicklung
-
-### Voraussetzungen
-- Node.js 20+
-
-### Installation
-
-```bash
-# Repository klonen
-git clone https://github.com/alper42/portfolio-backend.git
-cd portfolio-backend
-
-# Dependencies installieren
-npm install
-
-# .env Datei erstellen
-cp .env.example .env
-# RESEND_API_KEY eintragen
-
-# Entwicklungsserver starten (mit Auto-Reload)
-npm run dev
-
-# Oder produktiv starten
-npm start
-```
-
----
-
 ## Umgebungsvariablen
 
 `.env` Datei im Projektroot erstellen:
@@ -81,8 +51,6 @@ npm start
 RESEND_API_KEY=dein_resend_api_key
 PORT=3001
 ```
-
-Den API Key bekommst du kostenlos unter [resend.com](https://resend.com).
 
 ---
 
